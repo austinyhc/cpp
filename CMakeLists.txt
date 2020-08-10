@@ -21,8 +21,7 @@ hunter_add_package(GTest)
 # find_package(Boost CONFIG REQUIRED system)
 find_package(GTest CONFIG REQUIRED)
 
-#include_directories(include)
-include_directories(src)
+include_directories(inc)
 
 add_subdirectory(src)
 add_subdirectory(test)
